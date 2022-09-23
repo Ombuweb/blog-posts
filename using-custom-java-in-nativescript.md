@@ -21,7 +21,8 @@ What I usually do is write and test the code I need in Android Studio, and when 
 
 [reference-types.png](/assets/how-to-use-java-in-nativescript/reference-types.png)
 Now when you type the full package name(```com.ombuweb.testroomdb```) the Java classes get suggested in VS Code: 
-![IntelliSense-in-action.png](/assets/how-to-use-java-in-nativescript/IntelliSense-in-action.png")
+![IntelliSense-in-action.png](/assets/how-to-use-java-in-nativescript/IntelliSense-in-action.png").
+
 See this Nativescript app [demo](https://github.com/Ombuweb/testApp.git) using the Java code . You can find the Java code [here](https://github.com/Ombuweb/test-roomdatabase.git)
 
 I hope you find this post useful.
