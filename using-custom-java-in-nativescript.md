@@ -2,7 +2,7 @@
 
 In this post, I will show you how to use the Java code you write in Android Studio in a Nativescript app. This solution resulted from me implementing the [Room Persistence](https://developer.android.com/jetpack/androidx/releases/room) library for Nativescript.
 
-To use the Java code in Nativescript, you have two options as illustrated in the following image from the [Nativescript](https://docs.nativescript.org/app-resources.html#adding-native-code-to-an-application) docs: 
+To use the Java code in Nativescript, you have two places to put it into, as illustrated in the following image from the [Nativescript](https://docs.nativescript.org/app-resources.html#adding-native-code-to-an-application) docs: 
 [native-code-location.png](/assets/how-to-use-java-in-nativescript/native-code-location.png)
 You either use the individual Java classes or package them into a library and use that library. In both cases, you should add the necessary dependencies to the ```app.gradle```. In the case of the Room library, you need to add the following dependencies:
 
@@ -19,7 +19,8 @@ What I usually do is write and test the code I need in Android Studio, and when 
 4. To generate the types, run ```ns typings android –jar <path to the .jar >``` file from step 4.
 5. Reference the generated ```android.d.ts```(you can rename it appropriately) file in the ```reference.d.ts```. 
 
-[reference-types.png](/assets/how-to-use-java-in-nativescript/reference-types.png)
+[reference-types.png](/assets/how-to-use-java-in-nativescript/reference-types.png).
+
 Now when you type the full package name(```com.ombuweb.testroomdb```) the Java classes get suggested in VS Code: 
 ![IntelliSense-in-action.png](/assets/how-to-use-java-in-nativescript/IntelliSense-in-action.png").
 
