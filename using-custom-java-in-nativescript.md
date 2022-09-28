@@ -4,7 +4,7 @@ In this post, I will show you how to use the Java code you write in Android Stud
 
 To use the Java code in NativeScript, you have two options as illustrated in the following image from the [NativeScript](https://docs.nativescript.org/app-resources.html#adding-native-code-to-an-application) docs:
 
-![native-code-location.png](assets/how-to-use-java-in-nativescript/native-code-location.png)
+![native-code-location.png](assets/how-to-use-java-in-nativescript/native-code-location.png).
 
 You either use the individual Java classes or package them into a library and use that library. In both cases, you should add the necessary dependencies to the ```app.gradle```. In the case of the Room library, you need to add the following dependencies:
 
